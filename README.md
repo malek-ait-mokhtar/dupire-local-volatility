@@ -14,7 +14,7 @@ $$
 \frac{dS_t}{S_t} = (r_t - q_t)dt + \sigma_{loc}(S_t,t)dW_t
 $$
 
-The price of a European call \(C(K,T)\) then satisfies the **Dupire forward PDE**
+The price of a European call $C(K,T)$ then satisfies the **Dupire forward PDE**
 
 $$
 \partial_T C(K,T) =
@@ -35,7 +35,7 @@ The repository contains two main components:
 Mathematical derivation of the Dupire equation, theoretical analysis and discussion of the numerical approach.
 
 **Code**  
-`méthodes_numériques_dupire.ipynb` (Original Notebook in Frenchs)
+`méthodes_numériques_dupire.ipynb` (Original Notebook in French)
 
 Python implementation of the numerical resolution of the Dupire PDE and generation of option price surfaces.
 
